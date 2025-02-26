@@ -11,6 +11,7 @@ public class NumberSpiral {
 				if(i>n) a=2*n-i;
 				if(j>n) b=2*n-j;
 				System.out.print(Math.min(a,b)+" ");
+				//for invert reverse print n+1-min
 				}
 			System.out.println();
 		}
